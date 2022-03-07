@@ -1,0 +1,90 @@
+.App {
+  font-family: Roboto;
+  /* text-align: center; */
+  /* padding: 10rem; */
+}
+
+.user-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+}
+
+.user-name {
+  font-size: 24px;
+  font-family: "Pacifico", cursive;
+}
+
+.movie-specs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-container {
+  /* background-color: orange; */
+  width: 320px;
+  height: min-content;
+}
+
+.movie-poster {
+  width: 320px;
+  height: 540px;
+  object-fit: cover;
+}
+
+.movie-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.movie-rating {
+  font-size: 18px;
+}
+
+.movie-summary {
+  margin-top: 0;
+}
+
+.movie-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.like-dislike-buttons {
+  display: flex;
+  gap: 5px;
+}
+.like-dislike-buttons > button {
+  font-size: 20px;
+}
+
+/* Task */
+/* 1. Warning: Each child in a list should have a unique "key" prop.  - Why? How? */
+/* 2. Toggling summary */
+
+.movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.not-found {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+
+.movie-detail-container {
+  max-width: 900px;
+  padding: 24px;
+}
+
+.route-content {
+  margin: 1.5rem;
+}
